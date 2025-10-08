@@ -12,10 +12,12 @@ This repository is designed to help me (and other developers) build a solid foun
 
 ---
 
+---
+
+```markdown
 ## 📂 Folder Structure
 
 ```
-
 Algorithm-Repository/
 │
 ├── README.md
@@ -43,9 +45,10 @@ Algorithm-Repository/
 ├── Numerical-Methods/
 ├── Data-Structures/
 └── System-Algorithms/
+```
+```
 
-````
-
+---
 Each folder contains algorithms organized by **category → language → algorithm file**.
 
 ---

@@ -1,45 +1,44 @@
 
+---
+
 # 🧠 Algorithm Repository — C++ & Java
 
-Welcome to my **personal structured algorithm repository** — a collection of commonly used algorithms implemented in both **C++** and **Java**.  
+Welcome to my **personal structured algorithm repository** — a collection of commonly used algorithms implemented in both **C++** and **Java**.
 
 This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving — from **basic** to **advanced** topics.
 
 ---
-```
+
 ## 📂 Folder Structure
 
-```
-
-Algorithm-Repository/
-│
-├── README.md
-├── CONTRIBUTING.md
-│
-├── Sorting-Algorithms/
-│   ├── Cpp/
-│   │   ├── BubbleSort.cpp
-│   │   ├── MergeSort.cpp
-│   └── Java/
-│       ├── BubbleSort.java
-│       ├── MergeSort.java
-│
-├── Searching-Algorithms/
-├── Math-Basics/
-├── Number-Theory/
-├── Sequences-Series/
-├── Graph-Algorithms/
-├── Dynamic-Programming/
-├── String-Algorithms/
-├── Geometry/
-├── Machine-Learning/
-├── Data-Compression/
-├── Cryptography/
-├── Numerical-Methods/ 
+```                                                                                               
+Algorithm-Repository/                                                                             
+│                                                                                                 
+├── README.md                                                                                     
+├── CONTRIBUTING.md                                                                               
+│                                                                                                 
+├── Sorting-Algorithms/                                                                           
+│   ├── Cpp/                                                                                      
+│   │   ├── BubbleSort.cpp                                                                        
+│   │   ├── MergeSort.cpp                                                                         
+│   └── Java/                                                                                     
+│       ├── BubbleSort.java                                                                       
+│       ├── MergeSort.java                                                                        
+│                                                                                                 
+├── Searching-Algorithms/                                                                         
+├── Math-Basics/                                                                                      
+├── Number-Theory/                                                                                
+├── Sequences-Series/                                                                                 
+├── Graph-Algorithms/                                                                                 
+├── Dynamic-Programming/                                                                              
+├── String-Algorithms/                                                                                
+├── Geometry/                                                                                     
+├── Machine-Learning/                                                                             
+├── Data-Compression/                                                                             
+├── Cryptography/                                                                                 
+├── Numerical-Methods/                                                                            
 ├── Data-Structures/                                                                              
-└── System-Algorithms/
-
-````
+└── System-Algorithms/                                                                            
 ```
 
 Each folder contains algorithms organized by **category → language → algorithm file**.
@@ -48,11 +47,12 @@ Each folder contains algorithms organized by **category → language → algorit
 
 ## 🏗️ Algorithm File Template
 
-Each algorithm file will include:
-- ✅ Short description  
-- 🕒 Time and space complexity  
-- 🧼 Clean and optimized implementation  
-- 🧪 Optional sample input/output  
+Each algorithm file includes:
+
+* ✅ Short description
+* 🕒 Time and space complexity
+* 🧼 Clean and optimized implementation
+* 🧪 Optional sample input/output
 
 Example (`Fibonacci.cpp`):
 
@@ -68,10 +68,10 @@ using namespace std;
 
 int fibonacci(int n) {
     if (n <= 1) return n;
-    int fib[n+1];
+    int fib[n + 1];
     fib[0] = 0; fib[1] = 1;
     for (int i = 2; i <= n; i++)
-        fib[i] = fib[i-1] + fib[i-2];
+        fib[i] = fib[i - 1] + fib[i - 2];
     return fib[n];
 }
 
@@ -80,7 +80,7 @@ int main() {
     cout << "Fibonacci(" << n << ") = " << fibonacci(n) << endl;
     return 0;
 }
-````
+```
 
 ---
 
@@ -128,8 +128,8 @@ int main() {
 
 ## 🧭 Naming Conventions
 
-* PascalCase for file names
-* `Category/Language/AlgorithmName.extension`
+* **PascalCase** for file names
+* Structure: `Category/Language/AlgorithmName.extension`
 
 Examples:
 
@@ -200,8 +200,5 @@ This project is licensed under the **MIT License** — feel free to use and cont
 
 ⭐ **Star** this repo if you find it useful — it motivates me to keep adding more algorithms!
 
-
-
-
-
+---
 

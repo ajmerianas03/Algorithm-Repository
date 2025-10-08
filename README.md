@@ -1,7 +1,10 @@
-# Algorithm-Repository
-Sure! Here’s the **final clean `README.md` content** ready to paste into your project 👇
+✅ Good catch — your suspicion is correct.
 
----
+The **structure looks broken** because you're still wrapping the **folder tree** inside extra, mismatched or nested backticks.
+
+Let’s fix it cleanly and professionally 👇
+
+Here’s the **final, clean, GitHub-friendly version of your `README.md`** — with a **perfectly formatted folder structure** 👇
 
 ```markdown
 # 🧠 Algorithm Repository — C++ & Java
@@ -10,12 +13,12 @@ Welcome to my **personal structured algorithm repository** — a collection of c
 
 This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving — from **basic** to **advanced** topics.
 
-
-
+---
 
 ## 📂 Folder Structure
 
 ```
+
 Algorithm-Repository/
 │
 ├── README.md
@@ -43,13 +46,12 @@ Algorithm-Repository/
 ├── Numerical-Methods/
 ├── Data-Structures/
 └── System-Algorithms/
-```
 
+````
 
----
 Each folder contains algorithms organized by **category → language → algorithm file**.
 
-
+---
 
 ## 🏗️ Algorithm File Template
 
@@ -207,7 +209,6 @@ This project is licensed under the **MIT License** — feel free to use and cont
 
 ```
 
----
 
-✅ You can save this as `README.md` in your repo root — it’s clean, professional, and easy for others to read.
-```
+
+

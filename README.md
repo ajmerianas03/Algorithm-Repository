@@ -44,7 +44,7 @@ Algorithm-Repository/
 ├── Data-Structures/
 └── System-Algorithms/
 ```
-```
+
 
 ---
 Each folder contains algorithms organized by **category → language → algorithm file**.

@@ -1,12 +1,4 @@
-✅ Good catch — your suspicion is correct.
 
-The **structure looks broken** because you're still wrapping the **folder tree** inside extra, mismatched or nested backticks.
-
-Let’s fix it cleanly and professionally 👇
-
-Here’s the **final, clean, GitHub-friendly version of your `README.md`** — with a **perfectly formatted folder structure** 👇
-
-```markdown
 # 🧠 Algorithm Repository — C++ & Java
 
 Welcome to my **personal structured algorithm repository** — a collection of commonly used algorithms implemented in both **C++** and **Java**.  
@@ -14,7 +6,7 @@ Welcome to my **personal structured algorithm repository** — a collection of c
 This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving — from **basic** to **advanced** topics.
 
 ---
-
+```
 ## 📂 Folder Structure
 
 ```
@@ -43,11 +35,12 @@ Algorithm-Repository/
 ├── Machine-Learning/
 ├── Data-Compression/
 ├── Cryptography/
-├── Numerical-Methods/
-├── Data-Structures/
+├── Numerical-Methods/ 
+├── Data-Structures/                                                                              
 └── System-Algorithms/
 
 ````
+```
 
 Each folder contains algorithms organized by **category → language → algorithm file**.
 
@@ -207,7 +200,7 @@ This project is licensed under the **MIT License** — feel free to use and cont
 
 ⭐ **Star** this repo if you find it useful — it motivates me to keep adding more algorithms!
 
-```
+
 
 
 

@@ -10,11 +10,9 @@ Welcome to my **personal structured algorithm repository** — a collection of c
 
 This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving — from **basic** to **advanced** topics.
 
----
 
----
 
-```markdown
+
 ## 📂 Folder Structure
 
 ```
@@ -51,7 +49,7 @@ Algorithm-Repository/
 ---
 Each folder contains algorithms organized by **category → language → algorithm file**.
 
----
+
 
 ## 🏗️ Algorithm File Template
 

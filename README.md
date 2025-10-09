@@ -1,11 +1,11 @@
 
 ---
 
-# 🧠 Algorithm Repository — C++ & Java
+# 🧠 Algorithm Repository - C++ & Java
 
-Welcome to my **personal structured algorithm repository** — a collection of commonly used algorithms implemented in both **C++** and **Java**.
+Welcome to my **personal structured algorithm repository** - a collection of commonly used algorithms implemented in both **C++** and **Java**.
 
-This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving — from **basic** to **advanced** topics.
+This repository is designed to help me (and other developers) build a solid foundation in algorithms, data structures, and problem-solving - from **basic** to **advanced** topics.
 
 ---
 
@@ -86,7 +86,7 @@ int main() {
 
 ## 🚀 Build Roadmap
 
-### **Phase 1 — Basics**
+### **Phase 1 - Basics**
 
 * Arithmetic (Add, Subtract, Multiply, Divide)
 * GCD, LCM, Modular Arithmetic
@@ -95,21 +95,21 @@ int main() {
 * Sorting (Bubble, Insertion, Merge, Quick)
 * Searching (Linear, Binary)
 
-### **Phase 2 — Core**
+### **Phase 2 - Core**
 
 * Heap Sort, Counting Sort
 * Prime Check (Sieve)
 * Factorial, nCr, Pascal
 * String Basics (Palindrome, Anagram)
 
-### **Phase 3 — Intermediate**
+### **Phase 3 - Intermediate**
 
 * Graph Algorithms (BFS, DFS, Dijkstra, Kruskal)
 * DP (LCS, LIS, Knapsack, Coin Change)
 * Backtracking (N-Queens, Sudoku)
 * Bit Manipulation
 
-### **Phase 4 — Advanced**
+### **Phase 4 - Advanced**
 
 * FFT, DFT
 * Number Theory (CRT, Euler Totient)
@@ -117,7 +117,7 @@ int main() {
 * KMP, Trie
 * Max Flow
 
-### **Phase 5 — Expert**
+### **Phase 5 - Expert**
 
 * ML Algorithms (K-Means, Linear Regression)
 * Cryptography (RSA, AES)
@@ -194,11 +194,11 @@ java MergeSort
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — feel free to use and contribute.
+This project is licensed under the **MIT License** - feel free to use and contribute.
 
 ---
 
-⭐ **Star** this repo if you find it useful — it motivates me to keep adding more algorithms!
+⭐ **Star** this repo if you find it useful - it motivates me to keep adding more algorithms!
 
 ---
 

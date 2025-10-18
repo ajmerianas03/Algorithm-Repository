@@ -1,3 +1,48 @@
+// StirlingNumber.java
+// Language: Java
+// Category: Combinatorics / Dynamic Programming
+// ---------------------------------------------------------
+// 🧠 Short Description:
+// Stirling Numbers of the Second Kind count the ways to partition 
+// a set of n elements into k non-empty subsets. This class provides 
+// three methods to compute S(n, k):
+//
+// 1) Recursive method (simple but inefficient due to overlapping subproblems)
+// 2) Memoized recursion (top-down dynamic programming to avoid recomputation)
+// 3) Tabulation (bottom-up dynamic programming for efficient iterative computation)
+//
+// Approach:
+// - Uses the recurrence relation:
+//       S(n, k) = k * S(n-1, k) + S(n-1, k-1)
+// - Base cases:
+//       S(0, 0) = 1; S(n, 0) = 0 for n > 0; S(0, k) = 0 for k > 0
+// - Memoization stores computed values to prevent repeated work
+// - Tabulation fills a dp table from base cases up to desired n and k
+//
+// Why it works well:
+// - Dynamic programming drastically reduces the time complexity compared 
+//   to naive recursion.
+// - Tabulation method is generally the fastest and most memory efficient.
+//
+// Example:
+// Input: n = 5, k = 3
+// Output: 25 (ways to partition a set of 5 elements into 3 non-empty subsets)
+//
+// ---------------------------------------------------------
+// 🕒 Time Complexity:
+//  Recursive: exponential
+//  Memoized / Tabulation: O(n*k)
+// 💾 Space Complexity:
+//  Memoized / Tabulation: O(n*k)
+//
+// ✅ Efficient and exact computation for typical input sizes.
+//
+// 📌 Real-life use cases:
+// - Grouping objects into clusters
+// - Counting equivalence relations
+// - Combinatorial enumeration in probability and statistics
+// 
+
 public class StirlingNumber {
 
     // 1. recursive Method (Inefficient)
